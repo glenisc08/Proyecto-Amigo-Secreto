@@ -3,7 +3,6 @@
 let amigos = [];
 
 function agregarAmigo() {
-    // Capturar el valor del campo de entrada
     const inputAmigo = document.getElementById('amigo');
     const nombre = inputAmigo.value;
 
@@ -20,7 +19,6 @@ function agregarAmigo() {
 }
 
 function actualizarListaAmigos() {
-    // Obtener el elemento de la lista
     const lista = document.getElementById('listaAmigos');
     
     lista.innerHTML = '';
